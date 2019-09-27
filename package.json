@@ -1,0 +1,24 @@
+{
+  "name": "quickreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^7.0.0",
+    "rbx": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siseventeen/497-Quick-React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siseventeen/497-Quick-React/issues"
+  },
+  "homepage": "https://github.com/siseventeen/497-Quick-React#readme"
+}
