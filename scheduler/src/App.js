@@ -7,7 +7,7 @@ import 'firebase/database';
 const firebaseConfig = {
   apiKey: "AIzaSyBoCvOIMaavDrpnyfSG5oC0EIwwq26yc6w",
   authDomain: "quickreact-9ee49.firebaseapp.com",
-  databaseURL: "https://quickreact-9ee49.firebaseapp.com",
+  databaseURL: "https://quickreact-9ee49.firebaseio.com",
   projectId: "quickreact-9ee49",
   storageBucket: "quickreact-9ee49.appspot.com",
   messagingSenderId: "695130637422",
@@ -18,6 +18,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref();
 
 const schedule = {
+  
   "title":"CS Courses for 2018-2019",
   "courses": [
     {
@@ -143,7 +144,7 @@ const addCourseTimes = course => ({
 
 const addScheduleTimes = schedule => ({
   title: schedule.title,
-  courses: schedule.courses.map(addCourseTimes)
+  courses: Object.values(schedule.courses).map(addCourseTimes)
 });
 
 const daysOverlap = (days1, days2) => ( 
