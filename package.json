@@ -1,11 +1,11 @@
 {
   "name": "quickreact",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "firebase": "^7.0.0",
-    "rbx": "^2.2.0"
+    "rbx": "^2.2.0",
+    "react-firebaseui": "^4.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/siseventeen/497-Quick-React/issues"
   },
-  "homepage": "https://github.com/siseventeen/497-Quick-React#readme"
+  "homepage": "https://github.com/siseventeen/497-Quick-React#readme",
+  "description": ""
 }
